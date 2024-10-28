@@ -13,4 +13,26 @@
     <color name="rosa">#E31B56</color>
     <color name="rojo">#F03B2E</color>
     <color name="rosa_claro">#E8977F</color>
+
+    <color name="yellow_green">#E0E79A</color>
+    <color name="light_pink">#F3A3A3</color>
+
+    <color name="Yellow">#E1E992</color>
+    <color name="Yellow_orange">#FCDA76</color>
+    <color name="Pink1">#EB8E8F</color>
+    <color name="Pink2">#F183A6</color>
+    <color name="Pink3">#C687D2</color>
+    <color name="Pink4">#A991D3</color>
+    <color name="Pink5">#929DD2</color>
+    <color name="Blue1">#83C2F6</color>
+    <color name="Blue2">#73CCF7</color>
+    <color name="Blue3">#73D7E5</color>
+    <color name="Blue4">#72C2BC</color>
+
+    <color name="view1">#AD1A19</color>
+    <color name="view2">#7F0E45</color>
+    <color name="view3">#401580</color>
+    <color name="view4">#0F3E96</color>
+    <color name="view5">#005355</color>
+
 </resources>

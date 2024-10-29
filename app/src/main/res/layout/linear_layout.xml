@@ -27,32 +27,32 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/Pink1"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:background="@color/Pink1" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/Pink2"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:background="@color/Pink2" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/Pink3"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:background="@color/Pink3" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/Pink4"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:background="@color/Pink4" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/Pink5"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:background="@color/Pink5" />
 
     </LinearLayout>
 
@@ -65,7 +65,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/Yellow_orange"/>
+            android:background="@color/Yellow_orange" />
 
     </LinearLayout>
 
@@ -78,23 +78,26 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/Blue1"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:background="@color/Blue1" />
+
         <View
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/Blue2"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:background="@color/Blue2" />
+
         <View
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/Blue3"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:background="@color/Blue3" />
+
         <View
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/Blue4"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:background="@color/Blue4" />
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
@@ -105,32 +108,32 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/view1"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:background="@color/view1" />
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/view2"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:background="@color/view2" />
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/view3"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:background="@color/view3" />
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/view4"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:background="@color/view4" />
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/view5"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:background="@color/view5" />
         </LinearLayout>
 
     </LinearLayout>

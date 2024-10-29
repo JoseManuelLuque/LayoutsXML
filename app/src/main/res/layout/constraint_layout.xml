@@ -1,54 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
 
     <TextView
         android:id="@+id/textView_CL"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:background="@color/Azul"
         android:text="Vamos a hacer un Login"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="32dp"
-        android:background="@color/Azul""/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <EditText
-        android:id="@+id/editText_username"
+        android:id="@+id/usuario"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:inputType="text"
-        android:hint="Escribe tu usuario"
-        app:layout_constraintTop_toBottomOf="@id/textView_CL"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginTop="16dp"/>
+        android:hint="Escribe tu usuario"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView_CL" />
 
     <EditText
-        android:id="@+id/editText_password"
+        android:id="@+id/pass"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"
+        android:layout_marginTop="16dp"
         android:hint="Escribe tu contraseña"
-        app:layout_constraintTop_toBottomOf="@id/editText_username"
-        app:layout_constraintStart_toStartOf="@id/editText_username"
-        app:layout_constraintEnd_toEndOf="@id/editText_username"
-        android:layout_marginTop="16dp"/>
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@id/usuario"
+        app:layout_constraintStart_toStartOf="@id/usuario"
+        app:layout_constraintTop_toBottomOf="@id/usuario" />
 
     <Button
         android:id="@+id/button_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
-        app:layout_constraintTop_toBottomOf="@id/editText_password"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="32dp"
-        android:width="50dp"
-        />
+        android:text="Login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pass"
+        android:background="@color/rosa"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
